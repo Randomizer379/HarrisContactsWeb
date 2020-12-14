@@ -7,6 +7,9 @@ namespace HarrisContactsWeb.Data
 {
     public class DbInitializer
     {
-
+        public static void Initialize(HarrisDbContext context)
+        {
+            context.Database.EnsureCreated();
+        }
     }
 }
