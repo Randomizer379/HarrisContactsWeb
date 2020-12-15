@@ -7,15 +7,16 @@ namespace HarrisContactsWeb.Models
 {
     public class Contact
     {
+        //Getters and Setters for contact class
         public int ContactID { get; set; }
-        public int Name { get; set; }
-        public int Surname { get; set; }
-        public int Email { get; set; }
-        public int Phone { get; set; }
-        public int Address { get; set; }
-        public int City { get; set; }
-        public int Postcode { get; set; }
-        public int Type { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
+        public string Address { get; set; }
+        public string City { get; set; }
+        public string Postcode { get; set; }
+        public string Type { get; set; }
 
     }
 }
